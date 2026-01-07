@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Dr. Rajeev Arya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index1.html" class="logo">Dr. Rajeev Arya</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index1.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="experience.html" class="nav-link">Experience</a></li>
+                <li><a href="research.html" class="nav-link">Research</a></li>
+                <li><a href="books.html" class="nav-link">Books</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <h1>Get in Touch</h1>
+        <p>Contact Details & Inquiry Form</p>
+    </header>
+
+    <section class="container">
+        <div class="contact-wrapper">
+            
+            <div class="contact-info-box">
+                <h3>Contact Information</h3>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>
+                        <strong>Residence:</strong><br>
+                        H.No.-34 Silver Estate,<br>
+                        Near Santasharam Nagar, Bagmugaliya,<br>
+                        Bhopal - 462026 (M.P) 
+                    </p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>
+                        <strong>Email:</strong><br>
+                        <a href="mailto:aryarajeev25@yahoo.com" style="color:white;">aryarajeev25@yahoo.com</a> 
+                    </p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>
+                        <strong>Phone:</strong><br>
+                        <a href="tel:+919425022745" style="color:white;">+91-9425-022745</a>
+                    </p>
+                </div>
+                <div class="info-item">
+                    <i class="fab fa-linkedin"></i>
+                    <p>
+                        <strong>LinkedIn:</strong><br>
+                        <a href="https://www.linkedin.com/in/prof-dr-rajeev-arya-464a3937/" target="_blank" style="color:white;">View Profile</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="contact-form-box">
+                <h3 style="color: var(--primary); margin-bottom:20px;">Send a Message</h3>
+                <form action="mailto:aryarajeev25@yahoo.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Send Email</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Prof. Dr. Rajeev Arya. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
